@@ -1,0 +1,79 @@
+/* Ajustar contenedor principal */
+.menu-container {
+    width: 70%; /* Aumentar el tamaño del contenedor */
+    margin: 20px auto; /* Centrar el contenedor con márgenes */
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste de la cuadrícula del menú */
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en una nueva fila si es necesario */
+}
+
+/* Ajuste de los elementos del menú */
+.menu-item {
+    flex: 1;
+    min-width: 150px; /* Añadir un ancho mínimo para que los elementos no se estiren demasiado */
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(206, 14, 7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+/* Asegurarse de que los items del menú cambien de color al pasar el ratón */
+.menu-item:hover {
+    background-color: rgb(206, 14, 7);
+}
+
+/* Ajuste del submenu */
+.submenu {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* Estilo de los enlaces en el submenu */
+.submenu a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(206, 14, 7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/* Cambiar color en hover para el submenu */
+.submenu a:hover {
+    background-color: rgb(206, 14, 7);
+}
+
+/* Estilo del botón de cerrar sesión */
+.cerrar-sesion {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(185, 72, 72);
+    color: white;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+

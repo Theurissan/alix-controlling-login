@@ -1,0 +1,71 @@
+/* Dashboard.css */
+.menu-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+}
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(206, 14, 7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: rgb(206, 14, 7);
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.submenu a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(206, 14, 7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.submenu a:hover {
+    background-color: rgb(206, 14, 7);
+}
+
+.cerrar-sesion {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(185, 72, 72);
+    color: white;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
